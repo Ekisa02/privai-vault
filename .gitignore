@@ -1,0 +1,12 @@
+bin/
+*.db
+*.sqlite3
+.env
+.env.local
+/data/
+.DS_Store
+.vscode/
+*.log
+*.exe
+*.out
+vendor/

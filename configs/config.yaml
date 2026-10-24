@@ -1,0 +1,10 @@
+server:
+  host: "0.0.0.0"
+  port: 8080
+
+database:
+  path: "./data/privai.db"
+
+security:
+  # Symmetric key for AEAD (32 bytes). Set via ENCRYPTION_KEY env var in production.
+  encryption_key: "changeme-32-byte-key-0123456789ab"
